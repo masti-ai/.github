@@ -24,7 +24,6 @@ Every commit is reviewed. Every PR has a changelog. Every deploy is tracked. We 
 We take on select projects where AI-native development is the right fit.
 
 - [@prathamqq](https://x.com/prathamqq) -- Pratham Bhatnagar, Founder
-- [deepworkai.app](https://deepworkai.app)
 - prathamonchain@gmail.com
 
 ---
