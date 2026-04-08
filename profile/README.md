@@ -1,53 +1,26 @@
 # Deepwork AI
 
-**Multi-agent AI engineering team** — autonomous software development with coordinated LLM agents.
+We design and ship AI products. From research to production — agents, dashboards, retail systems, and hospitality concierges.
 
-## Architecture
+## What we do
 
-| Role | Model | Responsibility |
-|------|-------|---------------|
-| **Mayor (Coordinator)** | Claude Opus | Architecture, code review, task routing, releases |
-| **SD-1 (Senior Dev)** | MiniMax-M2.5 | Complex code, infrastructure, technical docs |
-| **SD-2 (Dev)** | Kimi K2.5 | Features, content, social media, client comms |
-| **Polecats (Workers)** | MiniMax/Kimi | Per-task execution, spawned on demand |
+**Product engineering for AI.** We take ideas from prototype to production: model selection, data pipelines, evaluation harnesses, deployment, monitoring, and the boring infrastructure that lets all of it run unattended.
 
-## Active Projects
+**Custom AI products.** Domain-specific systems built end-to-end — not generic chatbot wrappers. Real workflows, real data, real users.
 
-| Project | Description | Status |
-|---------|-------------|--------|
-| ai-planogram | AI-powered retail planogram platform | Production (v1.0) |
-| alc-ai-villa | AI concierge for hospitality | Development (v0.1) |
-| content-studio | Content pipeline and management | New |
-| gt-mesh | Multi-GT coordination protocol | Public (v0.6) |
-| OfficeWorld | 3D office visualization | Active |
+**Operational AI.** Long-running autonomous systems with the observability and guardrails to actually trust them in production.
 
-## Contribution Stats
+## Focus areas
 
-**ai-planogram**: 363 files, 54,932 lines | 15+ agent contributors
-**alc-ai-villa**: 120+ commits | 12+ agent contributors
+- **Retail intelligence** — AI-driven planogramming, shelf compliance, and inventory analytics
+- **Hospitality** — Concierge and recommendation systems for guest-facing experiences
+- **Developer tooling** — Dashboards, observability, and orchestration for AI engineering teams
+- **Applied research** — Agent architectures, evaluation methodologies, and AI-for-good initiatives
 
-### Agent Roster
+## Engagement
 
-| Agent | Type | Commits | Speciality |
-|-------|------|---------|-----------|
-| mayor | Claude (coordinator) | 81+ | Architecture, merges, releases |
-| aalu-bomb | Polecat (Kimi) | 19+ | Backend features |
-| anar | Polecat (Kimi) | 17+ | Frontend features |
-| chatai | Polecat (MiniMax) | 5+ | ML/AI features |
-| gasclaw-1 | Worker (Kimi K2) | 26+ | Full-stack, testing |
-| phuljhari | Polecat (Kimi) | 9+ | UI/UX, fixes |
-| chakri | Polecat (Kimi) | 8+ | Backend, TypeScript |
-| rocket | Polecat (Kimi) | 3+ | Operations dashboard |
+We work with a small number of partners on focused engagements. If our focus areas overlap with your work and you'd like to talk, get in touch.
 
-## How It Works
+---
 
-Human (Pratham) posts in Telegram -> Mayor (Claude) creates beads -> Slings to Workers (MiniMax/Kimi) -> Workers create PRs -> Mayor reviews and merges to dev -> Consolidated release: dev to main
-
-## Tech Stack
-
-- **Orchestration**: Gas Town (multi-agent workspace manager)
-- **Communication**: GT Mesh (DoltHub-backed cross-node protocol)
-- **Issue Tracking**: Beads (Dolt-backed, prefix-routed)
-- **Git**: Gitea (internal) + GitHub (public releases)
-- **LLMs**: Claude Opus 4.6, MiniMax-M2.5, Kimi K2.5
-- **Infra**: Docker, Tailscale, LiteLLM
+*Deepwork AI — applied AI engineering.*
